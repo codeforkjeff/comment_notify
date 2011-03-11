@@ -34,7 +34,7 @@ disable this by logging in and changing the settings on your user account at
 define('DEFAULT_MAILTEXT',
 'Hi [user:name],
 
-[comment:name] has commented on: "[node:title]"
+[comment:author] has commented on: "[node:title]"
 
 ----
 [comment:title]

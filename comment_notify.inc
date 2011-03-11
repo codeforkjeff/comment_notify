@@ -22,7 +22,7 @@ function comment_notify_get_user_notification_setting($uid) {
     // Handle anonymous users with defaults.
     if ($uid == 0) {
       $users[0] = new stdClass();
-      $users[0]->comment_notify = comment_notify_variable_registry_get('default_registered_mailalert');
+      $users[0]->comment_notify = comment_notify_variable_registry_get('default_anon_mailalert');
       $users[0]->node_notify = comment_notify_variable_registry_get('node_notify_default_mailalert');
     }
     else {

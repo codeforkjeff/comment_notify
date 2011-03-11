@@ -10,3 +10,12 @@ Use this software at your own risk. I make no guarantees as to whether
 it will make your server explode.
 
 - Forked on Mar 10, 2011.
+
+* Fix for error: "Notice: Undefined property: stdClass::$node_notify_mailalert in
+_comment_notify_mailalert() (line 440 of
+/var/www/mysite.com/sites/all/modules/comment_notify/comment_notify.module)."
+
+See <http://drupal.org/node/974338>
+
+
+

@@ -46,4 +46,6 @@ function comment_notify_tokens($type, $tokens, array $data = array(), array $opt
       }
     }
   }
+
+  return $replacements;
 }

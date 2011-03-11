@@ -17,5 +17,10 @@ _comment_notify_mailalert() (line 440 of
 
 See <http://drupal.org/node/974338>
 
+* Fix to make [comment:unsubscribe-url] work
+
+See <http://drupal.org/node/952072>
+
+
 
 

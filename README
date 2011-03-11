@@ -1,0 +1,12 @@
+
+This is a fork of comment_notify module for Drupal 7. The webpage for
+the original project is <http://drupal.org/project/comment_notify>
+
+I created this to apply some patches that the maintainers haven't
+gotten around to doing yet. Some are my own, some are from others. See
+below for details. 
+
+Use this software at your own risk. I make no guarantees as to whether
+it will make your server explode.
+
+Forked on Mar 10, 2010.

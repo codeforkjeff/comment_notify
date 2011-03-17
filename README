@@ -28,3 +28,8 @@ See <http://drupal.org/node/833454>
 * Fix to make comment form pick up defaults specified in config for anonymous
 
 See <http://drupal.org/node/1008938>
+
+* Fix for wrong comment hash in unsubscribe-url token replacement
+
+See < http://drupal.org/node/952072>
+

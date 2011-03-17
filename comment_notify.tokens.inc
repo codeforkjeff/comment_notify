@@ -34,12 +34,13 @@ function comment_notify_tokens($type, $tokens, array $data = array(), array $opt
 
   if ($type == 'comment' && !empty($data['comment'])) {
     $comment = $data['comment'];
+    $watcher = $data['watcher'];
 
     foreach ($tokens as $name => $original) {
       switch ($name) {
         case 'unsubscribe-url':
           module_load_include('inc', 'comment_notify', 'comment_notify');
-          if ($hash = comment_notify_get_notify_hash($comment->cid)) {
+          if ($hash = comment_notify_get_notify_hash($watcher->cid)) {
             $replacements[$original] = url('comment_notify/disable/' . $hash, $url_options);
           }
           break;

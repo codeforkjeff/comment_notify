@@ -33,3 +33,6 @@ See <http://drupal.org/node/1008938>
 
 See < http://drupal.org/node/952072>
 
+* Tie user token to notification recipient instead of logged-in user
+
+See <http://drupal.org/node/1030022>

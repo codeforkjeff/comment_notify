@@ -483,7 +483,7 @@ function _comment_notify_mailalert($comment) {
       );
 
       foreach ($raw_values as $k => $v) {
-        $message[$k] = token_replace(t($v), array('comment' => $comment, 'watcher' => $alert, 'node' => $node, 'user' => $user));
+        $message[$k] = token_replace(t($v), array('comment' => $comment, 'watcher' => $alert, 'node' => $node, 'user' => $recipient_user));
       }
 
       drupal_mail('comment_notify', 'comment_notify_mail', $mail, $language, $message);
